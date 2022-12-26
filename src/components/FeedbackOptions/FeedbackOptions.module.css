@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: blue;
+  background-color: rgb(218, 194, 240);  
+}
+
+.btn::first-letter {
+  text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #ff0087;
+    background-color: aquamarine;
+}
